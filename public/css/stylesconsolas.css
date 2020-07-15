@@ -1,0 +1,107 @@
+nav{
+	height: 113px;
+
+	
+}
+nav img{
+	width: 67px;
+	margin: 8px 0px 8px 35px;	
+
+}
+nav li a{	
+	font-family: 'Audiowide', cursive;
+	/*font-family: 'Bungee Shade', cursive;*/
+}
+#atari, #nintendo, #portatiles, #xbox, #playstation, #retro{
+	color: #e65100;
+	padding: 15px;
+	font-size: 25px;
+}
+nav li a:hover{
+	
+}
+
+/*nav ul li a .contenido{
+	color:white;
+}*/
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	
+	font-family: 'Bungee', cursive;
+	background-color: black;
+}
+
+main {
+	flex: 1 0 auto;
+}
+.sidenav{
+	background-color: #424242;
+	font-family: 'Wallpoet', cursive;
+
+	
+}
+#mobile-demo li a{
+	font-size: 25px;
+	color: #ef6c00;
+
+
+}
+
+}
+.row a img{
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+}
+
+.btn{
+	background-color: #c62828;
+	margin: 10px;
+}
+#mariomaker{
+	width: 190px;
+	height: 190px;
+	margin-left: px;
+}
+.page-footer{
+	background-color: #424242;
+}
+.card-image img{
+	padding: 10px;
+
+}
+
+.sidenav-trigger{
+	color: #b71c1c;
+}
+.comprar:hover{
+	color: #1a237e;
+	font-size: 25px;
+}
+
+.ventas{
+	width: 300px;
+}
+
+.carrusel1 img{
+	width: 500px;
+	height: 500px;
+}
+.youtube iframe {
+	width: 100vw;
+	height: 100vh;
+
+}
+footer, h5 {
+	/*font-family: 'Press Start 2P', cursive;
+	font-family: 'Rock Salt', cursive;*/
+	font-family: 'Wallpoet', cursive;
+	font-size: 35px;
+
+}
+ul, .tabs{
+	color: black;
+}
