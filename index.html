@@ -51,185 +51,223 @@
 		<div id="fb-root"></div>
 		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v7.0" nonce="bXEgk2DW"></script>
 		<!-- <div class="animate__animated animate__rubberBand animate__slow">Example</div> -->
-
+		
 		<!-- <div class="center section" id="circulo">
 			<div class="preloader-wrapper active">
 				<div class="spinner-layer spinner-red-only">
-					  <div class="circle-clipper left">
+					<div class="circle-clipper left">
 						<div class="circle"></div>
 					</div>
 					<div class="gap-patch">
 						<div class="circle"></div>
-					  </div>
-				  <div class="circle-clipper right">
-					<div class="circle"></div>
-				  </div>
+					</div>
+					<div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
 				</div>
 			</div>
 		</div> -->
 		
-
+		
 		
 		<body>
 			
-
-				
-				
+			
+			
+			
 			<!-- header -->
-
+			
 			<!-- <div class="hide" id="contenido" > -->
-			<header>
-				<!-- barra de navegacion -->
-				
-				<div class="row container-fluid
-				 center animate__animated animate__bounceInUp animate__slow "  id="GIFS">
-					<div class="s6 m6 l6  "> 
-				
-						<a href="index.html" class="brand-logo ">
-							<img src="public/img/logo_ARMIN.jpg" id="logo" class="responsive-image ">
-						</a>								
+				<header>
+					<!-- barra de navegacion -->
+					
+					<div class="row container-fluid center animate__animated animate__bounceInUp animate__slow "  id="GIFS">
+						<div class="s6 m6 l6  "> 
+							
+							<a href="index.html" class="brand-logo ">
+								<img src="public/img/logo_ARMIN.jpg" id="logo" class="responsive-image ">
+							</a>								
+							
+						</div >
 						
-					</div >
-
-
-					<div class="s6 m6 l6">
-						<a class="btn tooltipped"  data-position="bottom" data-tooltip="#ARGJ20 manda este código a nuestro whatsapp o comentalo en mercado libre para recibir un regalo sorpresa" >CLICK PARA RECIBIR UN REGALO</a>
-
+					
+						
+						
+						<div class="s6 m6 l6">						
+							<div class="row">
+								<form class="col s12 ">
+									<div class="row">							
+										
+										<!-- Modal Structure -->
+										<div id="modal1" class="modal">
+											<div class="modal-content">
+												<h4 class="header white red-text text-darken-3 center">YA CASI TIENES TU REGALO!!</h4>
+												<h4 class="header white black-text text-darken-3 center">Completa tus datos </h4>
+												<div class="input-field col s6">
+													<i class="material-icons prefix">account_circle</i>
+													<input id="icon_prefix" type="text" class="validate">
+													<label for="icon_prefix">Nombre</label>
+												</div>
+												<div class="input-field col s6">
+													<i class="material-icons prefix">email</i>
+													<input id="email" type="email" class="validate">
+													<label for="email">E-mail</label>
+													<span class="helper-text" data-error="error" data-success="perfecto"></span>
+													<a id = "submit" class="waves-effect waves-light btn " >Enviar<i class="material-icons right">send</i></a>
+													
+												</div>
+												
+												
+											</div>
+											
+										</div>
+										
+										<!-- Modal Trigger -->
+										<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Registrate y obtén un regalo<i class="material-icons right"></i></a>
+									</div>
+								</form>
+							</div>			
+						</div>
 					</div>
 					
 					
-
-				</div>
-				
-				
-				<nav>	
-					
-					<div class="nav-wrapper  red darken-3 center">	
+					<nav>	
 						
-						<a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-small"><i class="large material-icons">storage</i></a>
-						<div class="show-on-small">
-							<h4>
-								TIENDA DE VIDEOJUEGOS ARMIN RETRO
-							</h4>
-						</div>
-						
-						<ul class="right hide-on-med-and-down">		
+						<div class="nav-wrapper  red darken-3 center">	
 							
-							<li><a class="dropdown-trigger" href="#!" data-target="dropdown5" id="retro">ARTICULOS RETRO</a></li>
-							<ul id="dropdown5" class="dropdown-content ">
-								<li><a href="articuloscolecciones.html" class=" redgrey-text text-lighten-5-text text-darken-4">Coleccionables</a></li>
-								<li><a href="articulosdiscos.html" class=" red-text text-darken-4">Discos</a></li>
-								<li><a href="articuloslibros.html" class=" red-text text-darken-4">Libros</a></li>						
-								<li><a href="articulostarjetas.html" class=" red-text text-darken-4">Tarjetas</a></li>
-								<li><a href="articulostazos.html" class=" red-text text-darken-4">Tazos</a></li>
+							<a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-small"><i class="large material-icons">storage</i></a>
+							<div class="show-on-small">
+								<h4>
+									TIENDA DE VIDEOJUEGOS ARMIN RETRO
+								</h4>
+							</div>
+							
+							<ul class="right hide-on-med-and-down">		
+								
+								<li><a class="dropdown-trigger" href="#!" data-target="dropdown5" id="retro">ARTICULOS RETRO</a></li>
+								<ul id="dropdown5" class="dropdown-content ">
+									<li><a href="articuloscolecciones.html" class=" redgrey-text text-lighten-5-text text-darken-4">Coleccionables</a></li>
+									<li><a href="articulosdiscos.html" class=" red-text text-darken-4">Discos</a></li>
+									<li><a href="articuloslibros.html" class=" red-text text-darken-4">Libros</a></li>						
+									<li><a href="articulostarjetas.html" class=" red-text text-darken-4">Tarjetas</a></li>
+									<li><a href="articulostazos.html" class=" red-text text-darken-4">Tazos</a></li>
+									
+								</ul>
+								
+								<li><a  href="atari.html" data-target="dropdown5" id="retro">ATARI</a></li>
+								
+								<li><a class="dropdown-trigger" href="#!" data-target="dropdown3" id="xbox">NINTENDO  <span class="new badge">3</span></a></li>
+								<ul id="dropdown3" class="dropdown-content ">
+									
+									<li><a href="nintendones.html" class=" red-text text-darken-4">Nintendo NES</a></li>								
+									<li><a href="nintendoGT.html" class=" red-text text-darken-4">Gameboy Tabique GT</a></li> 	
+									<li><a href="nintendosupernes.html" class=" red-text text-darken-4">Super Nintendo SNES <span class="new badge">1</span></a></li>
+									<li><a href="nintendon64.html" class=" red-text text-darken-4">Nintendo 64 N64</a></li>
+									<li><a href="nintendoGC.html" class=" red-text text-darken-4">Gameboy Color GC</a></li>
+									<li><a href="nintendogamecube.html" class=" red-text text-darken-4">Gamecube</a></li>
+									<li><a href="nintendoGA.html" class=" red-text text-darken-4">Gameboy Advance GA <span class="new badge">1</span></a></li>
+									<li><a href="nintendoDS.html" class=" red-text text-darken-4">Nintendo DS</a></li>
+									<li><a href="nintendo3DS.html" class=" red-text text-darken-4">Nintendo 3DS</a></li>								
+									<li><a href="nintendowii.html" class=" red-text text-darken-4">Nintendo WII  <span class="new badge">1</span></a></li>
+									<li><a href="nintendoswitch.html" class=" red-text text-darken-4">Nintendo Switch  <span class="new badge">1</span></a></li>
+									
+									
+									
+								</ul> 	
+								
+								<li><a  href="sega.html" data-target="" id="retro">SEGA<i class="material-icons right"></i></a></li>
+								
+								<li><a class="dropdown-trigger" href="#!" data-target="dropdown4" id="playstation">PLAYSTATION</a></li>
+								<ul id="dropdown4" class="dropdown-content ">
+									<li><a href="playstation1.html" class=" red-text text-darken-4">PlayStation 1</a></li>
+									<li><a href="playstation2.html" class=" red-text text-darken-4">PlayStation 2</a></li>						
+									<li><a href="playstation3.html" class=" red-text text-darken-4">PlayStation 3</a></li>
+									<li><a href="playstation4.html" class=" red-text text-darken-4">PlayStation 4</a></li>
+									<li><a href="portatilesPSP.html" class=" red-text text-darken-4">PSP</a></li>
+									<li><a href="portatilesPSP.html" class=" red-text text-darken-4">PS VITA</a></li>
+									
+								</ul> 						
+								
+								<li><a class="dropdown-trigger" href="#!" data-target="dropdown1" id="nintendo">XBOX  <span class="new badge">7</span></a></li>
+								<ul id="dropdown1" class="dropdown-content  ">
+									<li><a href="xboxclasico.html" class=" red-text text-darken-4">XBOX Clásico  <span class="new badge">4</span></a></li>
+									<li><a href="xbox360.html" class=" red-text text-darken-4">XBOX 360 <span class="new badge">3</span></a></li>								
+									<li><a href="xboxone.html" class=" red-text text-darken-4">XBOX One</a></li>
+									
+								</ul> 				 
+								
 								
 							</ul>
 							
-							<li><a  href="atari.html" data-target="dropdown5" id="retro">ATARI</a></li>
-
-							<li><a class="dropdown-trigger" href="#!" data-target="dropdown3" id="xbox">NINTENDO  <span class="new badge">3</span></a></li>
-							<ul id="dropdown3" class="dropdown-content ">
-
-								<li><a href="nintendones.html" class=" red-text text-darken-4">Nintendo NES</a></li>								
-								<li><a href="nintendoGT.html" class=" red-text text-darken-4">Gameboy Tabique GT</a></li> 	
-								<li><a href="nintendosupernes.html" class=" red-text text-darken-4">Super Nintendo SNES <span class="new badge">1</span></a></li>
-								<li><a href="nintendon64.html" class=" red-text text-darken-4">Nintendo 64 N64</a></li>
-								<li><a href="nintendoGC.html" class=" red-text text-darken-4">Gameboy Color GC</a></li>
-								<li><a href="nintendogamecube.html" class=" red-text text-darken-4">Gamecube</a></li>
-								<li><a href="nintendoGA.html" class=" red-text text-darken-4">Gameboy Advance GA <span class="new badge">1</span></a></li>
-								<li><a href="nintendoDS.html" class=" red-text text-darken-4">Nintendo DS</a></li>
-								<li><a href="nintendo3DS.html" class=" red-text text-darken-4">Nintendo 3DS</a></li>								
-								<li><a href="nintendowii.html" class=" red-text text-darken-4">Nintendo WII  <span class="new badge">1</span></a></li>
-								<li><a href="nintendoswitch.html" class=" red-text text-darken-4">Nintendo Switch  <span class="new badge">1</span></a></li>
-
-								
-								
-							</ul> 	
-							
-							<li><a  href="sega.html" data-target="" id="retro">SEGA<i class="material-icons right"></i></a></li>
-							
-							<li><a class="dropdown-trigger" href="#!" data-target="dropdown4" id="playstation">PLAYSTATION</a></li>
-							<ul id="dropdown4" class="dropdown-content ">
-								<li><a href="playstation1.html" class=" red-text text-darken-4">PlayStation 1</a></li>
-								<li><a href="playstation2.html" class=" red-text text-darken-4">PlayStation 2</a></li>						
-								<li><a href="playstation3.html" class=" red-text text-darken-4">PlayStation 3</a></li>
-								<li><a href="playstation4.html" class=" red-text text-darken-4">PlayStation 4</a></li>
-								<li><a href="portatilesPSP.html" class=" red-text text-darken-4">PSP</a></li>
-								<li><a href="portatilesPSP.html" class=" red-text text-darken-4">PS VITA</a></li>
-								
-							</ul> 						
-							
-							<li><a class="dropdown-trigger" href="#!" data-target="dropdown1" id="nintendo">XBOX  <span class="new badge">7</span></a></li>
-							<ul id="dropdown1" class="dropdown-content  ">
-								<li><a href="xboxclasico.html" class=" red-text text-darken-4">XBOX Clásico  <span class="new badge">4</span></a></li>
-								<li><a href="xbox360.html" class=" red-text text-darken-4">XBOX 360 <span class="new badge">3</span></a></li>								
-								<li><a href="xboxone.html" class=" red-text text-darken-4">XBOX One</a></li>
-								
-							</ul> 				 
-							
-							
-						</ul>
+						</div>
+					</nav> 
+					<!-- menu movil -->
+					
+					<ul class="sidenav" id="mobile-demo">					
 						
-					</div>
-				</nav> 
-				<!-- menu movil -->
-
-				 <ul class="sidenav" id="mobile-demo">					
+						
+						
+						
+						<li><a href="atari.html" class=" grey-text text-lighten-5">Atari </a></li>
+						
+						<li class="divider" tabindex="-1"></li>
+						
+						<li><a href="nintendones.html" class="grey-text text-lighten-5">Nintendo Nes <span class="new badge">1</span></a></li>
+						<li><a href="nintendoGT.html" class="grey-text text-lighten-5">Gameboy Tabique </a></li>	
+						<li><a href="nintendosupernes.html" class="grey-text text-lighten-5">Super NES</a></li>
+						<li><a href="nintendon64.html" class="grey-text text-lighten-5">Nintendo 64</a></li>
+						<li><a href="nintendoGC.html" class="grey-text text-lighten-5">Gameboy Color </a></li>
+						<li><a href="nintendogamecube.html" class="grey-text text-lighten-5">Gamecube</a></li>
+						<li><a href="nintendoGA.html" class="grey-text text-lighten-5">Gameboy Advance </a></li>					
+						<li><a href="nintendo3DS.html" class="grey-text text-lighten-5">Nintendo 3DS</a></li>
+						<li><a href="nintendoDS.html" class="grey-text text-lighten-5">Nintendo DS</a></li>				
+						<li><a href="nintendowii.html" class="grey-text text-lighten-5">Nintendo WII</a></li>	
+						<li><a href="nintendoswitch.html" class="grey-text text-lighten-5">Nintendo Switch </a></li>
+						
+						<li class="divider" tabindex="-1"></li>
+						
+						<li><a href="sega.html" class="grey-text text-lighten-5">SEGA </a></li>	
+						
+						<li class="divider" tabindex="-1"></li>
+						
+						
+						<li><a href="playstation1.html" class=" grey-text text-lighten-5">PS 1 <span class="new badge">1</span></a></li>
+						<li><a href="playstation2.html" class=" grey-text text-lighten-5">PS 2</a></li>
+						<li><a href="playstation3.html" class=" grey-text text-lighten-5">PS 3   <span class="new badge">2</span></a></li>	
+						<li><a href="playstation4.html" class=" grey-text text-lighten-5">PS 4 </a></li>	
+						<li><a href="portatilesPSP.html" class="grey-text text-lighten-5">PSP </a></li>	
+						
+						<li class="divider" tabindex="-1"></li>
+						
+						
+						<li><a href="xbox360.html" class=" grey-text text-lighten-5">XBOX 360 <span class="new badge">4</span></a></li>
+						<li><a href="xboxclasico.html" class="grey-text text-lighten-5">XBOX Clásico</a></li>
+						<li><a href="xboxone.html" class="grey-text text-lighten-5">XBOX ONE </a></li>	
+						
+						<li class="divider" tabindex="-1"></li>
+						
+						<li><a href="articuloscolecciones.html" class=" grey-text text-lighten-5">Coleccionables <span class="new badge">3</span></a></li>
+						<li><a href="articulosdiscos.html" class="grey-text text-lighten-5">Discos </a></li>
+						<li><a href="articuloslibros.html" class="grey-text text-lighten-5">Libros</a></li>	
+						<li><a href="articulostarjetas.html" class="grey-text text-lighten-5">Tarjetas</a></li>					
+						<li><a href="articulostazos.html" class="grey-text text-lighten-5">Tazos</a></li>
+						
+						
+						
+					</ul>   
 					
 					
 					
 					
-					<li><a href="atari.html" class=" grey-text text-lighten-5">Atari </a></li>
-
-					<li class="divider" tabindex="-1"></li>
-
-					<li><a href="nintendones.html" class="grey-text text-lighten-5">Nintendo Nes <span class="new badge">1</span></a></li>
-					<li><a href="nintendoGT.html" class="grey-text text-lighten-5">Gameboy Tabique </a></li>	
-					<li><a href="nintendosupernes.html" class="grey-text text-lighten-5">Super NES</a></li>
-					<li><a href="nintendon64.html" class="grey-text text-lighten-5">Nintendo 64</a></li>
-					<li><a href="nintendoGC.html" class="grey-text text-lighten-5">Gameboy Color </a></li>
-					<li><a href="nintendogamecube.html" class="grey-text text-lighten-5">Gamecube</a></li>
-					<li><a href="nintendoGA.html" class="grey-text text-lighten-5">Gameboy Advance </a></li>					
-					<li><a href="nintendo3DS.html" class="grey-text text-lighten-5">Nintendo 3DS</a></li>
-					<li><a href="nintendoDS.html" class="grey-text text-lighten-5">Nintendo DS</a></li>				
-					<li><a href="nintendowii.html" class="grey-text text-lighten-5">Nintendo WII</a></li>	
-					<li><a href="nintendoswitch.html" class="grey-text text-lighten-5">Nintendo Switch </a></li>
-
-					<li class="divider" tabindex="-1"></li>
-					
-					<li><a href="sega.html" class="grey-text text-lighten-5">SEGA </a></li>	
-
-					<li class="divider" tabindex="-1"></li>
-					
-					
-					<li><a href="playstation1.html" class=" grey-text text-lighten-5">PS 1 <span class="new badge">1</span></a></li>
-					<li><a href="playstation2.html" class=" grey-text text-lighten-5">PS 2</a></li>
-					<li><a href="playstation3.html" class=" grey-text text-lighten-5">PS 3   <span class="new badge">2</span></a></li>	
-					<li><a href="playstation4.html" class=" grey-text text-lighten-5">PS 4 </a></li>	
-					<li><a href="portatilesPSP.html" class="grey-text text-lighten-5">PSP </a></li>	
-
-					<li class="divider" tabindex="-1"></li>
-					
-					
-					<li><a href="xbox360.html" class=" grey-text text-lighten-5">XBOX 360 <span class="new badge">4</span></a></li>
-					<li><a href="xboxclasico.html" class="grey-text text-lighten-5">XBOX Clásico</a></li>
-					<li><a href="xboxone.html" class="grey-text text-lighten-5">XBOX ONE </a></li>	
-
-					<li class="divider" tabindex="-1"></li>
-
-					<li><a href="articuloscolecciones.html" class=" grey-text text-lighten-5">Coleccionables <span class="new badge">3</span></a></li>
-					<li><a href="articulosdiscos.html" class="grey-text text-lighten-5">Discos </a></li>
-					<li><a href="articuloslibros.html" class="grey-text text-lighten-5">Libros</a></li>	
-					<li><a href="articulostarjetas.html" class="grey-text text-lighten-5">Tarjetas</a></li>					
-					<li><a href="articulostazos.html" class="grey-text text-lighten-5">Tazos</a></li>
 					
 					
 					
-				</ul>   				
-				
-			</header>
-
-		<!-- </div> -->
+					
+					
+					
+				</header>
+			
+			<!-- </div> -->
 			
 			
 			<main>
@@ -273,7 +311,7 @@
 					<h2 class="header grey-text text-lighten-5 transparent center">NUESTROS PRODUCTOS </h2>
 					<div class="row container">
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="atari.html">
@@ -295,10 +333,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="atari.html">
@@ -320,10 +358,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendoGT.html">
@@ -345,9 +383,9 @@
 								
 							</div>
 						</div>
-
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendosupernes.html">
@@ -369,10 +407,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendon64.html">
@@ -394,10 +432,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendoGC.html">
@@ -419,10 +457,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendogamecube.html">
@@ -444,10 +482,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendoGA.html">
@@ -469,9 +507,9 @@
 								
 							</div>
 						</div>
-
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendo3DS.html">
@@ -493,10 +531,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendoDS.html">
@@ -518,10 +556,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendowii.html">
@@ -543,10 +581,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="nintendoswitch.html">
@@ -568,11 +606,11 @@
 								
 							</div>
 						</div>
-
-
-
+						
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="sega.html">
@@ -594,11 +632,11 @@
 								
 							</div>
 						</div>
-
-
-
+						
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="playstation1.html">
@@ -620,10 +658,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="playstation2.html">
@@ -645,10 +683,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="playstation3.html">
@@ -670,10 +708,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="playstation4.html">
@@ -695,10 +733,10 @@
 								
 							</div>
 						</div>
-
-
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="portatilesPSP.html">
@@ -720,11 +758,11 @@
 								
 							</div>
 						</div>
-
-
-
+						
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="xbox360.html">
@@ -746,10 +784,10 @@
 								
 							</div>
 						</div>
-
+						
 						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="xboxclasico.html">
@@ -771,11 +809,11 @@
 								
 							</div>
 						</div>
-
-
-
+						
+						
+						
 						<!-- cards -->
-						<div class="col s12 m6">					
+						<div class="col s12 m6 l6">					
 							<div class="card  grey lighten-5">
 								<div class="card-image">
 									<a href="xboxone.html">
@@ -922,8 +960,9 @@
 											<!-- Modal Structure -->
 											<div id="modal1" class="modal">
 												<div class="modal-content">
-													<h4>¡Hecho!</h4>
-													<p>Revisa tu correo y usa tu nuevo codigo de descuento para comprar tus videojuegos favoritos</p>
+													<h4
+													>¡Hecho!</h4>
+													<p class="black">Revisa tu correo y usa tu nuevo codigo de descuento para comprar tus videojuegos favoritos</p>
 												</div>
 												<div class="modal-footer">
 													<a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
@@ -943,9 +982,9 @@
 							
 						</div>
 					</div>
-			</footer>
-		</body>
-		
+				</footer>
+			</body>
+			
 			<!-- <script>
 				window.addEventListener('load', () => {
 					document.getElementById('circulo').className = 'hide';
