@@ -1,10 +1,26 @@
 nav{
-	height: 113px;
+	height: 120px;
+	/* border-style: solid;
+	border-color: black; */
+	background-color:#101011;
+	margin-top: 0px;
+}
+
+#GIFS{
+	background-image: url(../img/index/Caballero.jpg);
+	background-size: cover;
+	/* border-style: solid;
+	border-color: black; */
+	margin-bottom: 0px;
+	
+}
+#mercadolibre{
+	margin: 0px;
 }
 
  
 nav li a{	
-	font-family: 'Audiowide', cursive;
+	font-family: 'Audiowide';
 	
 	/*font-family: 'Bungee Shade', cursive;*/
 }
@@ -111,7 +127,7 @@ footer, h5 {
 	font-size: 10px;
 }
 
-GIT
+
 
 h5{
 	font-size: 20px;
@@ -121,10 +137,8 @@ p{
 	color: black;
 }
 
-#GIFS{
-	background-image: url(../img/index/Super_Mario_Odyssey_Jump_Up_Super_Star_Musical_Trailer.gif);
-	background-size: cover;
-	
-}
+
+
+
 
 
