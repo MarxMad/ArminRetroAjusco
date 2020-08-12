@@ -2,18 +2,19 @@ nav{
 	height: 110px;
 	/* border-style: solid;
 	border-color: black; */
-	background-color:#3737e9;
+	background-color:#05055d;
 	margin-top: 0px;
 }
 
 #GIFS{
-	background-image: url(../img/index/Retro.jpg);
+	background-image: url(../img/index/astronauta-1.jpg);
 	background-size: cover;
 	/* border-style: solid;
 	border-color: black; */
 	margin-bottom: 0px;
 
 	
+
 }
 .titulo{
 	font-size: 25px;
@@ -38,6 +39,14 @@ nav li a{
 .inicio{
 	width: 100%;
 	
+}
+
+/* #promociones{
+	width: 355px;
+} */
+
+#promocion-1, #promocion-2{
+	width: 355px;
 }
 
 /*nav ul li a .contenido{
