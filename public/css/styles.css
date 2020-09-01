@@ -2,12 +2,12 @@ nav{
 	height: 110px;
 	/* border-style: solid;
 	border-color: black; */
-	background-color:#05055d;
+	background-color:#b71c1c;
 	margin-top: 0px;
 }
 
 #GIFS{
-	background-image: url(../img/index/astronauta-1.jpg);
+	background-image: url(../img/index/futuro_1.jpg);
 	background-size: cover;
 	/* border-style: solid;
 	border-color: black; */
@@ -17,7 +17,7 @@ nav{
 
 }
 .titulo{
-	font-size: 25px;
+	font-size: 30px;
 }
 
 
